@@ -1,10 +1,5 @@
-# [Backstage](https://backstage.io)
+# Backstage EventCatalog Demo
 
-This is your newly scaffolded Backstage App, Good Luck!
+Very basic example of a new backstage application that uses the `@eventcatalog/backstage-plugin-eventcatalog` plugin.
 
-To start the app, run:
-
-```sh
-yarn install
-yarn dev
-```
+[If you want to learn more you can watch the video and get started here.](https://www.eventcatalog.dev/docs/development/plugins/backstage/intro)
