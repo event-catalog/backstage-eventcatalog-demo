@@ -54,7 +54,9 @@ import {
 import { TechDocsAddons } from '@backstage/plugin-techdocs-react';
 import { ReportIssue } from '@backstage/plugin-techdocs-module-addons-contrib';
 
-import { EventCatalogDocumentationEntityPage, EventCatalogEntityMessageCard, EventCatalogEntityVisualiserCard } from '@eventcatalog/backstage-plugin-eventcatalog'
+// import { EventCatalogDocumentationEntityPage, EventCatalogEntityMessageCard, EventCatalogEntityVisualiserCard } from '@eventcatalog/backstage-plugin-eventcatalog'
+
+import { EventCatalogDocumentationEntityPage, EventCatalogEntityMessageCard, EventCatalogEntityVisualiserCard } from '@internal/backstage-plugin-eventcatalog-2';
 
 import {
   EntityKubernetesContent,
@@ -198,6 +200,7 @@ const serviceEntityPage = (
     </EntityLayout.Route>
 
     <EntityLayout.Route path="/eventcatalog-docs" title="EventCatalog: Docs">
+      {/* <EventCatalogDocumentationEntityPage page='docs' /> */}
       <EventCatalogDocumentationEntityPage page='docs' />
     </EntityLayout.Route>
 

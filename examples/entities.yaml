@@ -24,6 +24,10 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: example-grpc-api
+  annotations:
+    eventcatalog.dev/id: NotificationService
+    eventcatalog.dev/version: 0.0.2
+    eventcatalog.dev/collection: services
 spec:
   type: grpc
   lifecycle: experimental
@@ -66,6 +70,8 @@ metadata:
   description: Backend API service
   annotations:
     github.com/project-slug: organization/backend-repo
+    eventcatalog.dev/id: InventoryService
+    eventcatalog.dev/version: 0.0.2
   tags:
     - nodejs
     - express
