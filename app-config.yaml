@@ -114,10 +114,3 @@ permission:
 
 eventcatalog:
   URL: 'https://demo.eventcatalog.dev'
-  services:
-    - backstage-name: 'backend-service'
-      eventcatalog-id: 'InventoryService'
-      eventcatalog-page-discovery-default-filter: 'Inventory Service'
-  apis:
-    - backstage-name: 'example-grpc-api'
-      eventcatalog-id: 'NotificationService'
